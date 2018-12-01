@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Автоматический переключатель изображений</title>
+<!--Указываю тип кодировки -->
+  <meta charset="utf-8">
+<!-- Строка ниже позволяет сделать веб-страницу адаптивной-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<a class="header__logo"><img src="logo-raif.svg"></a>
+<!--<a href="index.html" class="test_class"></a>-->
+	<ul id="slides" >
+		<a href="index.html"><li class="slide showing" ><img src="1.png" ></li></a>
+		<a href="index.html"><li class="slide"><img src="2.png" ></li></a>
+		 <a href="index.html"><li class="slide"><img src="3.png" ></li></a>
+		 
+</ul>
+
+<p><a class="semi-transparent-button" href="#">Нажмите на экран</a></p>
+<script>
+var MySlider = document.querySelectorAll('#slides .slide');
+var currentPicture = 0;
+var IntervalForChange = setInterval(nextSlide,2700);
+ 
+function nextSlide(){
+ MySlider[currentPicture].className = 'slide';
+ currentPicture = (currentPicture+1)%MySlider.length;
+ MySlider[currentPicture].className = 'slide showing';
+}
+</script>
+ 
+</body>
+</html>

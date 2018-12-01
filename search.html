@@ -1,0 +1,146 @@
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="osn_ar_16_ser">
+<tr>
+<td height="30" colspan="2">Выберите Валюту 1</td>
+<td height="30">&nbsp;</td>
+<td height="30" colspan="2">Выберите Валюту 2</td>
+</tr>
+<tr>
+<td colspan="2" id="vpdmenu_valut_1"><select class="chrn_ar_18" id="" onchange="smenValut(this.value, 1);" style="width:280px; height:32px; border:2px solid #C0C0C0;">
+<option value="RUB" >&nbsp;Российский рубль (RUB)</option>
+<option value="USD" selected>&nbsp;Доллар США (USD)</option>
+<option value="EUR" >&nbsp;Евро (EUR)</option>
+<option value="GBP" >&nbsp;Фунт Стерлингов Великобритании (GBP)</option><option value="AUD" >&nbsp;Австралийский доллар (AUD)</option>
+<option value="AZN" >&nbsp;Азербайджанский манат (AZN)</option>
+<option value="AMD" >&nbsp;Армянский драм (AMD)</option>
+<option value="BGN" >&nbsp;Болгарский лев (BGN)</option>
+<option value="BRL" >&nbsp;Бразильский реал (BRL)</option>
+<option value="HUF" >&nbsp;Венгерский форинт (HUF)</option>
+<option value="DKK" >&nbsp;Датская крона (DKK)</option>
+<option value="INR" >&nbsp;Индийская рупия (INR)</option>
+<option value="KZT" >&nbsp;Казахстанский тенге (KZT)</option>
+<option value="CAD" >&nbsp;Канадский доллар (CAD)</option>
+<option value="KGS" >&nbsp;Киргизский сом (KGS)</option>
+<option value="CNY" >&nbsp;Китайский юань (CNY)</option>
+<option value="MDL" >&nbsp;Молдавский лей (MDL)</option>
+<option value="RON" >&nbsp;Новый румынский лей (RON)</option>
+<option value="TMT" >&nbsp;Новый туркменский манат (TMT)</option>
+<option value="NOK" >&nbsp;Норвежская крона (NOK)</option>
+<option value="PLN" >&nbsp;Польский злотый (PLN)</option>
+<option value="XDR" >&nbsp;СДР (спец. права заимствования) (XDR)</option><option value="SGD" >&nbsp;Сингапурский доллар (SGD)</option>
+<option value="TJS" >&nbsp;Таджикский сомони (TJS)</option>
+<option value="TRY" >&nbsp;Турецкая лира (TRY)</option>
+<option value="UZS" >&nbsp;Узбекский сум (UZS)</option>
+<option value="UAH" >&nbsp;Украинская гривна (UAH)</option>
+<option value="CZK" >&nbsp;Чешская крона (CZK)</option>
+<option value="SEK" >&nbsp;Шведская крона (SEK)</option>
+<option value="CHF" >&nbsp;Швейцарский франк (CHF)</option>
+<option value="ZAR" >&nbsp;Южноафриканский ранд (ZAR)</option>
+<option value="KRW" >&nbsp;Южнокорейская вона (KRW)</option>
+<option value="JPY" >&nbsp;Японская иена (JPY)</option>
+<option value="BYN" >&nbsp;BYN (BYN)</option>
+<option value="HKD" >&nbsp;HKD (HKD)</option>
+</select></td>
+<td rowspan="5" align="center" valign="middle"><a href="javascript:void(0);" onclick="obmenEcheek();">
+<img src="/images/overall/knopki-strelk-tuda-suda.png" width="62" height="44"></a></td>
+<td colspan="2" id="vpdmenu_valut_2">
+<select class="chrn_ar_18" id="" onchange="smenValut(this.value, 2);" style="width:280px; height:32px; border:2px solid #C0C0C0;">
+<option value="RUB" selected>&nbsp;Российский рубль (RUB)</option>
+<option value="USD" >&nbsp;Доллар США (USD)</option>
+<option value="EUR" >&nbsp;Евро (EUR)</option>
+<option value="GBP" >&nbsp;Фунт Стерлингов Великобритании (GBP)</option><option value="AUD" >&nbsp;Австралийский доллар (AUD)</option>
+<option value="AZN" >&nbsp;Азербайджанский манат (AZN)</option>
+<option value="AMD" >&nbsp;Армянский драм (AMD)</option>
+<option value="BGN" >&nbsp;Болгарский лев (BGN)</option><option value="BRL" >&nbsp;Бразильский реал (BRL)</option>
+<option value="HUF" >&nbsp;Венгерский форинт (HUF)</option>
+<option value="DKK" >&nbsp;Датская крона (DKK)</option>
+<option value="INR" >&nbsp;Индийская рупия (INR)</option>
+<option value="KZT" >&nbsp;Казахстанский тенге (KZT)</option>
+<option value="CAD" >&nbsp;Канадский доллар (CAD)</option>
+<option value="KGS" >&nbsp;Киргизский сом (KGS)</option>
+<option value="CNY" >&nbsp;Китайский юань (CNY)</option>
+<option value="MDL" >&nbsp;Молдавский лей (MDL)</option>
+<option value="RON" >&nbsp;Новый румынский лей (RON)</option>
+<option value="TMT" >&nbsp;Новый туркменский манат (TMT)</option>
+<option value="NOK" >&nbsp;Норвежская крона (NOK)</option>
+<option value="PLN" >&nbsp;Польский злотый (PLN)</option>
+<option value="XDR" >&nbsp;СДР (спец. права заимствования) (XDR)</option><option value="SGD" >&nbsp;Сингапурский доллар (SGD)</option>
+<option value="TJS" >&nbsp;Таджикский сомони (TJS)</option>
+<option value="TRY" >&nbsp;Турецкая лира (TRY)</option>
+<option value="UZS" >&nbsp;Узбекский сум (UZS)</option>
+<option value="UAH" >&nbsp;Украинская гривна (UAH)</option>
+<option value="CZK" >&nbsp;Чешская крона (CZK)</option>
+<option value="SEK" >&nbsp;Шведская крона (SEK)</option>
+<option value="CHF" >&nbsp;Швейцарский франк (CHF)</option>
+<option value="ZAR" >&nbsp;Южноафриканский ранд (ZAR)</option>
+<option value="KRW" >&nbsp;Южнокорейская вона (KRW)</option>
+<option value="JPY" >&nbsp;Японская иена (JPY)</option>
+<option value="BYN" >&nbsp;BYN (BYN)</option><option value="HKD" >&nbsp;HKD (HKD)</option>
+</select></td>
+</tr>
+<tr>
+<td height="30">&nbsp;</td>
+<td height="30">&nbsp;</td>
+<td width="60" height="30">&nbsp;</td>
+<td width="210" height="30">&nbsp;</td>
+</tr>
+<tr>
+<td width="60" height="24">&nbsp;</td>
+<td width="210" height="24" align="right">Введите сумму 1</td>
+<td width="60" height="24">&nbsp;</td>
+<td width="210" height="24" align="right">Введите сумму 2</td>
+</tr>
+<tr>
+<td width="60" height="42"><div id="flag_kart_1" style="width:50px; height:34px; background:url(/images/overall/flags_big_korpus.png); background-position: -70px -10px;">&nbsp;</div></td>
+<td width="210" height="42" align="right"><input type="text" class="chrn_ar_26_prav" id="okno_summa_1" value="100" style="width:210px; border: 2px solid #C0C0C0;" onClick="this.select();" onKeyUp="chIch(1);" maxlength="13"></td>
+<td width="60" height="42"><div id="flag_kart_2" style="width:50px; height:34px; background:url(/images/overall/flags_big_korpus.png); background-position: -10px -10px;">&nbsp;</div></td>
+<td width="210" height="42" align="right"><input type="text" class="chrn_ar_26_prav" id="okno_summa_2" value="6653.35" style="width:210px; border: 2px solid #C0C0C0;" onClick="this.select();" onKeyUp="chIch(2);" maxlength="13"></td>
+</tr>
+<tr>
+<td width="60">&nbsp;</td>
+<td width="210" align="right" class="ser_ar_14" id="polsk_1">100.00</td>
+<td width="60">&nbsp;</td>
+<td width="210" align="right" class="ser_ar_14" id="polsk_2">6 653.35</td>
+</tr>
+</table>
+<script type="text/javascript">
+///// Дата Сегодня и Завтра по версии сервера
+var datt_segodn = '01.12.2018';
+var datt_zavtra = '02.12.2018';
+
+///// Основные Валюта 1 и Валюта 2
+var valuta_1 = 'USD';
+var valuta_2 = 'RUB';
+
+///// Значения основных валют по умолчанию
+var znch_1 = '100';
+var znch_2 = '6653.35';
+
+///// Даты курсов: Основная, Предыдущая, Завтра
+var data_osnv = '01.12.2018';
+var data_pred = '30.11.2018';
+var data_zavt = 'net';
+
+///// Данные курсов: Основные, Предудущие, Завтра
+var zna_osnv = {RUB:['RUB','1','1'],USD:['USD','1','66.5335'],EUR:['EUR','1','75.7484'],GBP:['GBP','1','85.0498'],AUD:['AUD','1','48.6426'],AZN:['AZN','1','39.2181'],AMD:['AMD','100','13.6971'],BGN:['BGN','1','38.7093'],BRL:['BRL','1','17.2689'],HUF:['HUF','100','23.3919'],DKK:['DKK','1','10.1469'],INR:['INR','100','95.3646'],KZT:['KZT','100','17.8169'],CAD:['CAD','1','50.0139'],KGS:['KGS','100','95.2520'],CNY:['CNY','10','95.8158'],MDL:['MDL','10','38.8177'],RON:['RON','1','16.2483'],TMT:['TMT','1','19.0368'],NOK:['NOK','10','77.7124'],PLN:['PLN','1','17.6524'],XDR:['XDR','1','92.0365'],SGD:['SGD','1','48.5611'],TJS:['TJS','10','70.6300'],TRY:['TRY','1','12.8801'],UZS:['UZS','10000','80.1695'],UAH:['UAH','10','23.5508'],CZK:['CZK','10','29.1635'],SEK:['SEK','10','73.1958'],CHF:['CHF','1','66.7739'],ZAR:['ZAR','10','48.4959'],KRW:['KRW','1000','59.3106'],JPY:['JPY','100','58.6534'],BYN:['BYN','1','31.2217'],HKD:['HKD','10','85.0660']};
+var zna_pred = {RUB:['RUB','1','1'],USD:['USD','1','66.6342'],EUR:['EUR','1','75.8897'],GBP:['GBP','1','85.4250'],AUD:['AUD','1','48.8495'],AZN:['AZN','1','39.2775'],AMD:['AMD','100','13.7390'],BGN:['BGN','1','38.7995'],BRL:['BRL','1','17.3026'],HUF:['HUF','100','23.4992'],DKK:['DKK','1','10.1694'],INR:['INR','100','95.3211'],KZT:['KZT','100','17.9811'],CAD:['CAD','1','50.2482'],KGS:['KGS','100','95.4645'],CNY:['CNY','10','95.9373'],MDL:['MDL','10','38.7296'],RON:['RON','1','16.3003'],TMT:['TMT','1','19.0656'],NOK:['NOK','10','78.0434'],PLN:['PLN','1','17.7059'],XDR:['XDR','1','91.9332'],SGD:['SGD','1','48.6346'],TJS:['TJS','10','70.6934'],TRY:['TRY','1','12.8747'],UZS:['UZS','10000','80.2909'],UAH:['UAH','10','23.4625'],CZK:['CZK','10','29.2512'],SEK:['SEK','10','73.9271'],CHF:['CHF','1','67.1445'],ZAR:['ZAR','10','48.8020'],KRW:['KRW','1000','59.4784'],JPY:['JPY','100','58.8252'],BYN:['BYN','1','31.2470'],HKD:['HKD','10','85.1860']};
+var zna_zavt = 'net';
+
+///// Справочник валют
+var spravch_val = {AMD:['AMD','Армянский драм','ru','396*335','310*10'],AZN:['AZN','Азербайджанский манат','ru','427*335','250*10'],BGN:['BGN','Болгарский лев','ru','39*426','430*10'],BRL:['BRL','Бразильский реал','ru','462*380','10*53'],BYR:['BYR','Белорусский рубль','ru','72*24','370*10'],CAD:['CAD','Канадский доллар','ru','203*560','310*53'],CHF:['CHF','Швейцарский франк','ru','330*113','130*139'],CNY:['CNY','Китайский юань','ru','104*23','430*53'],CZK:['CZK','Чешская крона','ru','425*69','10*139'],DKK:['DKK','Датская крона','ru','235*426','130*53'],EUR:['EUR','Евро','ru','105*469','130*10'],GBP:['GBP','Фунт Стерлингов Великобритании','ru','7*514','190*10'],HUF:['HUF','Венгерский форинт','ru','298*24','70*53'],INR:['INR','Индийская рупия','ru','234*203','190*53'],JPY:['JPY','Японская иена','ru','40*559','310*139'],KGS:['KGS','Киргизский сом','ru','366*559','370*53'],KRW:['KRW','Южнокорейская вона','ru','72*291','250*139'],KZT:['KZT','Казахстанский тенге','ru','268*559','250*53'],LTL:['LTL','Литовский лит','ru','428*291','10*96'],MDL:['MDL','Молдавский лей','ru','200*336','70*96'],NOK:['NOK','Норвежская крона','ru','169*202','250*96'],RON:['RON','Новый румынский лей','ru','392*69','130*96'],RUB:['RUB','Российский рубль','ru','267*158','10*10'],SEK:['SEK','Шведская крона','ru','361*113','70*139'],SGD:['SGD','Сингапурский доллар','ru','168*113','310*96'],TMT:['TMT','Новый туркменский манат','ru','425*23','190*96'],UAH:['UAH','Украинская гривна','ru','329*23','430*96'],USD:['USD','Доллар США','ru','234*24','70*10'],UZS:['UZS','Узбекский сум','ru','200*24','370*96'],XDR:['XDR','СДР (спец. права заимствования)','ru','',''],ZAR:['ZAR','Южноафриканский ранд','ru','8*68','190*139'],AUD:['AUD','Австралийский доллар','ru','',''],PLN:['PLN','Польский злотый','ru','',''],TJS:['TJS','Таджикский сомони','ru','',''],TRY:['TRY','Турецкая лира','ru','','']};
+
+///// Исключенные коды
+var iskluch_kodi = 'net';
+
+///// Списки кодов валют: Все Коды, Только используемые в основных данных
+var kodval_vse = ['RUB', 'USD', 'EUR', 'GBP', 'AUD', 'AZN', 'AMD', 'BYR', 'BGN', 'BRL', 'HUF', 'DKK', 'INR', 'KZT', 'CAD', 'KGS', 'CNY', 'LTL', 'MDL', 'RON', 'TMT', 'NOK', 'PLN', 'XDR', 'SGD', 'TJS', 'TRY', 'UZS', 'UAH', 'CZK', 'SEK', 'CHF', 'ZAR', 'KRW', 'JPY', 'ATS', 'AZM', 'BEF', 'BYB', 'BYN', 'DEM', 'EEK', 'ESP', 'FIM', 'FRF', 'GEL', 'GRD', 'HKD', 'IEP', 'ISK', 'ITL', 'LVL', 'NLG', 'NULL', 'PTE', 'TRL', 'XEU'];
+var kodvl_osnv = ['RUB','USD','EUR','GBP','AUD','AZN','AMD','BGN','BRL','HUF','DKK','INR','KZT','CAD','KGS','CNY','MDL','RON','TMT','NOK','PLN','XDR','SGD','TJS','TRY','UZS','UAH','CZK','SEK','CHF','ZAR','KRW','JPY','BYN','HKD'];
+
+///// Названия вкладок
+var nazv_vkl = ['Калькулятор всех валют', 'Курсы валют', 'Настройки'];
+
+///// Код и Название Банка
+var bank_kod    = 'cbrf';
+var bank_nazvan = 'ЦБ РФ';
+
+</script>
+
